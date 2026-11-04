@@ -2,7 +2,7 @@
 
 Self-directed DFIR and SOC investigations across network, memory, and endpoint
 forensics. Each write-up reconstructs the full attack chain from the available
-evidence — not just a list of indicators, but how the attacker gained access,
+evidence, not just a list of indicators, but how the attacker gained access,
 what techniques they used, and how each artifact connects to the next.
 
 ---
@@ -18,7 +18,6 @@ what techniques they used, and how each artifact connects to the next.
 | [XLMRat](xlmrat.md) | Network Forensics | PCAP analysis, PowerShell loader, payload carving, AsyncRAT, LOLBin (RegSvcs) |
 | [HireMe](hireme.md) | Endpoint Forensics | AD1 image analysis, registry hive examination, FTK Imager |
 
-*(Table updated as investigations are added.)*
 
 ---
 
@@ -42,7 +41,7 @@ The goal is always the full picture: not "here is a suspicious file," but
 
 | Area | Tools |
 |------|-------|
-| Network analysis | Wireshark, tshark, tcpdump, NetworkMiner |
+| Network analysis | Wireshark, NetworkMiner |
 | Memory forensics | Volatility 3 |
 | Endpoint / disk | FTK Imager, Registry Explorer, Sysmon/Event Log analysis |
 | Log analysis & SIEM | Splunk (SPL), Elastic / Kibana (KQL) |
