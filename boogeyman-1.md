@@ -4,7 +4,7 @@
 **Tools:** lnkparse, jq, grep, CyberChef
 **Skills demonstrated:** phishing attachment analysis, PowerShell script-block log analysis, tool identification by behavior, DNS exfiltration reconstruction
 
-\---
+
 
 ## Scenario
 
@@ -14,7 +14,7 @@ compromised her workstation. The security team flagged the suspicious execution,
 other finance employees reported similar phishing — a targeted attack attributed to a
 new threat group, "Boogeyman," known for targeting the logistics sector.
 
-\---
+
 
 ## Attack Chain
 
@@ -41,7 +41,7 @@ Notes database — likely hunting for the KeePass master password.
 sending it in chunks as **DNS queries via nslookup** to the attacker's server
 (`167.71.211.113`) — data smuggled out inside DNS, bypassing firewall egress rules.
 
-\---
+
 
 ## Indicators of Compromise
 
@@ -55,7 +55,7 @@ sending it in chunks as **DNS queries via nslookup** to the attacker's server
 |Exfil method|hex-encoded DNS queries via nslookup|
 |Exfil destination|167.71.211.113|
 
-\---
+
 
 ## Summary
 
