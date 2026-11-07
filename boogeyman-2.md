@@ -4,7 +4,7 @@
 **Tools:** Volatility 3 (pslist, cmdline, netscan), olevba
 **Skills demonstrated:** memory-dump analysis, process-chain reconstruction, Office macro analysis, payload-disguise identification
 
-\---
+
 
 ## Scenario
 
@@ -13,7 +13,7 @@ application with an attached resume. The resume was malicious and compromised he
 workstation. The security team flagged suspicious commands, prompting the
 investigation. **Only a memory dump was available.**
 
-\---
+
 
 ## Attack Chain
 
@@ -38,7 +38,7 @@ malicious website when the document was opened, then saved as `update.js`.
 **6. Persistence.** The attacker established persistence via a `schtasks` command
 (scheduled task).
 
-\---
+
 
 ## Indicators of Compromise
 
@@ -50,7 +50,7 @@ malicious website when the document was opened, then saved as `update.js`.
 |C2|128.199.95.189:8080|
 |Persistence|scheduled task (schtasks)|
 
-\---
+
 
 ## Summary
 
