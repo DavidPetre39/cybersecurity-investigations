@@ -4,7 +4,6 @@
 **Tools:** Wireshark, tshark, strings
 **Skills demonstrated:** protocol identification, exploit-chain reconstruction, payload analysis, malware identification from strings in encrypted traffic
 
-\---
 
 ## Scenario
 
@@ -12,7 +11,6 @@ Only a PCAP was provided. The task: reconstruct the intrusion — how the attack
 gained code execution, what was delivered, and how the compromised host was
 controlled.
 
-\---
 
 ## Investigation
 
@@ -53,7 +51,6 @@ microphone capture, memory read/write). This confirms an interactive remote-cont
 channel; the encrypted content means actual data exfiltration cannot be confirmed
 from the capture.
 
-\---
 
 ## Attack Chain
 
@@ -69,7 +66,6 @@ Crafted OpenWire packet → ActiveMQ :61616 (CVE-2023-46604, unauthenticated)
 *Note: how the attacker reached the broker's port (internet-exposed service vs. prior
 internal foothold) is not determinable from the PCAP alone.*
 
-\---
 
 ## Indicators of Compromise
 
@@ -83,7 +79,6 @@ internal foothold) is not determinable from the PCAP alone.*
 |Dropped payload|/tmp/docker (Mettle / Meterpreter)|
 |C2|146.190.21.92|
 
-\---
 
 ## Summary
 
