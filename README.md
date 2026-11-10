@@ -17,6 +17,7 @@ what techniques they used, and how each artifact connects to the next.
 | [Boogeyman 3](boogeyman-3.md) | Active Directory | ISO/HTA delivery, UAC bypass, pass-the-hash, lateral movement, DCSync |
 | [OpenWire](openwire.md) | Network Forensics | Apache ActiveMQ RCE (CVE-2023-46604), Java deserialization, ProcessBuilder, Meterpreter/Mettle C2 |
 | [Disgruntled](disgruntled.md) | Endpoint Forensics (Linux) | Insider threat, privilege abuse, rogue sudo account, cron logic bomb |
+| [Juicy Details](juicy-details.md) | Log Forensics (Linux web) | Web attack kill chain — nmap, hydra, sqlmap SQLi, feroxbuster, FTP/SSH exfil, multi-source log correlation |
 
 
 ---
