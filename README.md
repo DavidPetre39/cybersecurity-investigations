@@ -56,5 +56,5 @@ The goal is always the full picture: not "here is a suspicious file," but
 
 Economic Informatics student focused on blue-team security — SOC analysis,
 digital forensics, and incident response. These investigations are part of a
-self-directed path toward detection engineering, building both the ability to
-reconstruct attacks and, increasingly, to write the detections that catch them.
+self-directed path toward a career in incident response and detection engineering, 
+building both the ability to reconstruct attacks and, increasingly, to write the detections that catch them.
