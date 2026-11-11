@@ -47,7 +47,7 @@ GET http://proforma-invoices.com/proforma/tkraw\_Protected99.exe
 Hosted on a **LiteSpeed** web server, resolving to 217.182.138.150 (France).
 
 * File: **tkraw\_Protected99.exe**
-* MD5: `71826BA081E303866CE2A253449...`
+* MD5: `71826BA081E303866CE2A2534491A2F7`
 
 **4. Malware identification.** The payload is **HawkEye Keylogger – Reborn v9**, a
 commodity credential-stealer (identified from the exfil email subject and sample
