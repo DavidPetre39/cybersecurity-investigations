@@ -18,6 +18,7 @@ what techniques they used, and how each artifact connects to the next.
 | [OpenWire](openwire.md) | Network Forensics | Apache ActiveMQ RCE (CVE-2023-46604), Java deserialization, ProcessBuilder, Meterpreter/Mettle C2 |
 | [Disgruntled](disgruntled.md) | Endpoint Forensics (Linux) | Insider threat, privilege abuse, rogue sudo account, cron logic bomb |
 | [Juicy Details](juicy-details.md) | Log Forensics (Linux web) | Web attack kill chain — nmap, hydra, sqlmap SQLi, feroxbuster, FTP/SSH exfil, multi-source log correlation |
+| [HawkEye](hawkeye.md) | Network Forensics | AD/Kerberos enumeration, SYSVOL/GPP hunting, HawkEye Reborn v9 infostealer, SMTP exfiltration |
 
 
 ---
