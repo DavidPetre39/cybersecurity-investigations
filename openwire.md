@@ -1,7 +1,7 @@
 # OpenWire — Apache ActiveMQ RCE (CVE-2023-46604)
 
 **Category:** Network Forensics
-**Tools:** Wireshark, tshark, strings
+**Tools:** Wireshark
 **Skills demonstrated:** protocol identification, exploit-chain reconstruction, payload analysis, malware identification from strings in encrypted traffic
 
 
@@ -86,9 +86,4 @@ An unauthenticated OpenWire deserialization flaw (CVE-2023-46604) let the attack
 make an Apache ActiveMQ broker fetch and execute a malicious Spring configuration. The
 config used `ProcessBuilder` to run a bash command that downloaded and executed a
 Mettle/Meterpreter agent, which then opened an encrypted C2 channel.
-
-**Takeaway:** the malware family was identified from an **encrypted** stream without
-decrypting a single byte — the agent's compiled-in code strings (`/mettle/src/`,
-`mettlesploit!`) fingerprinted it as Meterpreter. When C2 traffic is encrypted, the
-payload's own strings are often enough to identify the tool and its capabilities.
 
