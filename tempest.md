@@ -77,7 +77,3 @@ A Follina-based malicious document led to full SYSTEM compromise. The chain ran 
 chisel reverse-SOCKS pivot, WinRM lateral authentication, PrintSpoofer privilege
 escalation, and reboot-persistent SYSTEM access with attacker-created admin accounts.
 
-**Takeaway:** the attack chained trusted Windows components (msdt, WinRM, legitimate
-tools renamed) at every stage — the detection signal is the *abnormal relationship*
-between them (Word spawning msdt, msdt running encoded PowerShell), not any single
-malicious file.
