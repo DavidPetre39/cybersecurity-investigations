@@ -77,7 +77,7 @@ Stolen credentials included (plaintext in the mail body):
 ## Attack Chain
 
 ```
-\[Initial domain access obtained BEFORE capture — not determinable from PCAP]
+[Initial domain access obtained BEFORE capture — not determinable from PCAP]
   → attacker (10.4.10.132) authenticates via Kerberos to DC (10.4.10.4)
   → TGS enumeration + SMB share enumeration (IPC$, Shared, SYSVOL)
       → reads Group Policy files hunting for stored credentials (priv-esc attempt)
